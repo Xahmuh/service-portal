@@ -34,11 +34,7 @@ const statusConfig: Record<string, { label: string; icon: React.ElementType; cla
   cancelled: { label: "ملغي", icon: XCircle, className: "bg-red-100 text-red-700 border-red-200" },
 };
 
-const priorityLabels: Record<string, { label: string; className: string }> = {
-  low: { label: "عادي", className: "bg-green-100 text-green-700" },
-  medium: { label: "متوسط", className: "bg-amber-100 text-amber-700" },
-  high: { label: "عاجل", className: "bg-red-100 text-red-700" },
-};
+
 
 const MyRequests = () => {
   const { user, isLoading: authLoading } = useAuth();

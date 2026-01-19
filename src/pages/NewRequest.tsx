@@ -251,7 +251,7 @@ const NewRequest = () => {
           citizen_id: user.id,
           type_id: formData.type_id,
           area_id: formData.area_id,
-          priority: "medium",
+          priority: "low",
           subject: formData.subject || formData.description.slice(0, 100),
           description: formData.description.trim(),
           status: "new",

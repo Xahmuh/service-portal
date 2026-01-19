@@ -59,11 +59,7 @@ const statusConfig: Record<string, { label: string; icon: React.ElementType; col
   cancelled: { label: "ملغي", icon: XCircle, color: "text-red-600", bgColor: "bg-red-500", step: 0 },
 };
 
-const priorityLabels: Record<string, { label: string; className: string }> = {
-  low: { label: "عادي", className: "bg-green-100 text-green-700 border-green-200" },
-  medium: { label: "متوسط", className: "bg-amber-100 text-amber-700 border-amber-200" },
-  high: { label: "عاجل", className: "bg-red-100 text-red-700 border-red-200" },
-};
+
 
 const TrackRequest = () => {
   const { user, userRole, isLoading: authLoading } = useAuth();
@@ -300,13 +296,6 @@ const TrackRequest = () => {
                       طلب ملغي
                     </Badge>
                   )}
-                  <Badge className={cn("border-none text-xs px-4 py-1.5 font-black",
-                    request.priority === 'high' ? 'bg-red-500 text-white' :
-                      request.priority === 'medium' ? 'bg-gold text-[#002B49]' :
-                        'bg-emerald-500 text-white'
-                  )}>
-                    {priorityLabels[request.priority]?.label}
-                  </Badge>
                   <Button
                     variant="outline"
                     size="sm"
