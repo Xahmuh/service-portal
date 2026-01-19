@@ -36,12 +36,12 @@ export function Header({ onRegisterClick }: HeaderProps) {
       <div className="container flex h-20 items-center justify-between">
         {/* Logo */}
         <Link to="/" className="flex items-center gap-3 group">
-          <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-primary/10 border border-primary/20 text-primary shadow-lg group-hover:rotate-6 transition-all duration-300">
-            <FileText className="h-7 w-7" />
+          <div className="flex h-16 w-16 items-center justify-center rounded-full overflow-hidden shadow-navy group-hover:scale-105 transition-transform">
+            <img src="/logo.png" alt="Platform Logo" className="w-full h-full object-cover" />
           </div>
           <div className="hidden sm:block">
-            <p className="text-sm font-black text-[#002B49] tracking-tight">منصة أهالي المنصورة</p>
-            <p className="text-[10px] text-muted-foreground font-bold uppercase tracking-widest">البوابة الرقمية الرسمية</p>
+            <p className="text-sm font-bold text-foreground">منصة خدمة المواطنين</p>
+            <p className="text-xs text-muted-foreground">النائب/ نبيل أبو وردة - دائرة المنصورة</p>
           </div>
         </Link>
 
