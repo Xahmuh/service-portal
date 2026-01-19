@@ -25,7 +25,7 @@ export function HeroSection({
     </>
   ),
   description = "منصة النائب نبيل أبو وردة للتواصل المباشر، تقديم طلبات الخدمات، ومتابعة قضايا الدائرة بشفافية وكفاءة رقمية عالية.",
-  badge = "المنصة الموحدة للخدمات الحكومية الرقمية",
+  badge = "المنصة الرقمية لخدمة أهالي دائرة المنصورة",
   showSearch = true,
   showRegisterButton = false,
   children,

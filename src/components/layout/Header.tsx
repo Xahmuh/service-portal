@@ -40,8 +40,8 @@ export function Header({ onRegisterClick }: HeaderProps) {
             <img src="/logo.png" alt="Platform Logo" className="w-full h-full object-cover" />
           </div>
           <div className="hidden sm:block">
-            <p className="text-sm font-bold text-foreground">منصة خدمة المواطنين</p>
-            <p className="text-xs text-muted-foreground">النائب/ نبيل أبو وردة - دائرة المنصورة</p>
+            <p className="text-sm font-black text-[#002B49] tracking-tight">منصة خدمة الأهالي</p>
+            <p className="text-[10px] text-muted-foreground font-bold uppercase tracking-widest">منصة خدمة أهالي دائرة المنصورة</p>
           </div>
         </Link>
 
