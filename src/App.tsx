@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { AuthProvider } from "@/hooks/useAuth";
 import Index from "./pages/Index";
 import News from "./pages/News";
+import NewsDetail from "./pages/NewsDetail";
 import NewRequest from "./pages/NewRequest";
 import TrackRequest from "./pages/TrackRequest";
 import MyRequests from "./pages/MyRequests";
@@ -42,6 +43,7 @@ const App = () => (
               {/* Public Routes */}
               <Route path="/" element={<Index />} />
               <Route path="/news" element={<News />} />
+              <Route path="/news/:id" element={<NewsDetail />} />
               <Route path="/about-candidate" element={<AboutCandidate />} />
               <Route path="/login" element={
                 <ProtectedRoute requireAuth={false}>

@@ -52,7 +52,7 @@ export function ProcessSteps() {
                     </div>
                     <div className="max-w-md mx-auto lg:mx-0">
                         <p className="text-base md:text-lg text-muted-foreground font-medium leading-relaxed">
-                        منظومة رقمية متطورة يديرها مكتب النائب ا.نبيل ابو وردة، تعتمد على حلول تقنية حديثة لتنظيم شكاوى وطلبات المواطنين، وضمان وضوح المتابعة وسرعة التواصل.
+                        منظومة رقمية متطورة يديرها مكتب النائب البرلماني، تعتمد على حلول تقنية حديثة لتنظيم شكاوى وطلبات المواطنين، وضمان وضوح المتابعة وسرعة التواصل.
                         </p>
                     </div>
                 </div>
