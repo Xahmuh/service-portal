@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Phone, Mail, MapPin } from "lucide-react";
+import { Phone, Mail, MapPin, FileText } from "lucide-react";
 
 export function Footer() {
   return (
@@ -9,8 +9,8 @@ export function Footer() {
           {/* About */}
           <div>
             <div className="flex items-center gap-3 mb-4">
-              <div className="flex h-12 w-12 items-center justify-center rounded-full overflow-hidden shadow-sm border border-border">
-                <img src="/logo.png" alt="Candidate Logo" className="w-full h-full object-cover" />
+              <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-primary/10 border border-primary/20 text-primary shadow-sm hover:scale-110 transition-transform">
+                <FileText className="h-6 w-6" />
               </div>
               <div>
                 <p className="font-bold text-foreground">ا.نبيل ابو وردة</p>
